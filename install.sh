@@ -32,7 +32,7 @@ display_welcome() {
 install_jq() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${RED}[+]             UPDATE & INSTALL JQ                 [+]${NC}"
+  echo -e "${RED}[+]             UPDATE & INSTALL JQ                  [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sudo apt update && sudo apt install -y jq
@@ -56,13 +56,13 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY KAYZEN             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY KAYZEN                    [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   TOKEN=$(jq -r '.token' token.json)
 
   echo -e "${BLUE}BUY TOKEN DLU SANA SAMA KAYZEN :${NC}"
-  echo -e "${BLUE}WHATSAPP:${NC}"
+  echo -e "${BLUE}WHATSAPP :${NC}"
   echo -e "${BLUE}0858-1001-8405 ${NC}
   read -r USER_TOKEN
 
