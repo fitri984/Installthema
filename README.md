@@ -16,9 +16,3 @@ bash <(curl -s https://raw.githubusercontent.com/fitri984/Installthema/refs/head
 - thema billing
 - thema enigma
 - uninstall thema
-
-## Contributors ✨
-
-Copyright (C) 2023 - 2024, Foxstore, @foxstore_id.
-
-- Created by [ FOXSTORE ](https://github.com/Foxstoree)
