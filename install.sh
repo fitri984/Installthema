@@ -62,8 +62,8 @@ check_token() {
   TOKEN=$(jq -r '.token' token.json)
 
   echo -e "${BLUE}BUY TOKEN DLU SANA SAMA KAYZEN :${NC}"
-  echo -e "${BLUE}WHATSAPP:${NC}
-  echo -e "${BLUE}0858-1001-8405${NC}
+  echo -e "${BLUE}WHATSAPP:${NC}"
+  echo -e "${BLUE}0858-1001-8405 ${NC}
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "kayzen" ]; then
