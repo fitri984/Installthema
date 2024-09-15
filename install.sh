@@ -62,7 +62,7 @@ check_token() {
   TOKEN=$(jq -r '.token' token.json)
 
   echo -e "${BLUE}BUY TOKEN DLU SANA SAMA KAYZEN :${NC}"
-  echo -e "${BLUE}𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 :${NC}
+  echo -e "${BLUE}WHATSAPP:${NC}
   echo -e "${BLUE}0858-1001-8405${NC}
   read -r USER_TOKEN
 
@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/Foxstoree/pterodactyl-auto-installer/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/fitri984/Installthema/refs/heads/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
