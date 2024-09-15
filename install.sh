@@ -32,7 +32,7 @@ display_welcome() {
 install_jq() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${RED}[+]             UPDATE & INSTALL JQ                 [+]${NC}"
+  echo -e "${BLUE}[+]             UPDATE & INSTALL JQ                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sudo apt update && sudo apt install -y jq
