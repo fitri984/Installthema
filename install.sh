@@ -21,7 +21,7 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 :"
-  echo -e "0858-1001-8405"
+  echo -e "0858-1001-84053"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
   echo -e "@foxstore"
   sleep 4
